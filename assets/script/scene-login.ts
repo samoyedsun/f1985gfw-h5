@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, SpriteFrame, resources, director } from 'cc';
-import { Socket } from './Common/network';
+import { Socket } from './common/network';
 import message from 'protobufjs/message.js';
 const { ccclass, property } = _decorator;
 

@@ -2,14 +2,14 @@
   "name": "gold-beach-client",
   "uuid": "2be04f0e-7767-4646-9294-0dbcf22d8493",
   "creator": {
-    "version": "3.8.1"
+    "version": "3.8.3"
   },
   "dependencies": {
     "protobufjs": "^7.2.5",
     "protobufjs-cli": "^1.1.2"
   },
   "scripts": {
-      "build-proto:pbjs": "pbjs --dependency protobufjs/minimal.js --target static-module --wrap commonjs --out ./node_modules/protobufjs/message.js ./protos/*.proto",
-      "build-proto:pbts": "pbts --out ./node_modules/protobufjs/message.d.ts ./node_modules/protobufjs/message.js"
+    "build-proto:pbjs": "pbjs --dependency protobufjs/minimal.js --target static-module --wrap commonjs --out ./node_modules/protobufjs/message.js ./protos/*.proto",
+    "build-proto:pbts": "pbts --out ./node_modules/protobufjs/message.d.ts ./node_modules/protobufjs/message.js"
   }
 }
